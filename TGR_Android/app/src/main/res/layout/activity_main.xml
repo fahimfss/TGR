@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/camViewer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@color/black">
+    </ImageView>
+
+    <Button
+        android:id="@+id/lightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIGHTS OFF"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent_red"
+        android:layout_marginTop="10dp"
+        android:elevation="2dp"
+
+        />
+
+    <io.github.controlwear.virtual.joystick.android.JoystickView xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/joystickView1"
+        android:elevation="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:JV_borderWidth="4dp"
+        custom:JV_buttonColor="#50004080"
+        custom:JV_buttonDirection="vertical"
+        custom:JV_buttonSizeRatio="20%"
+        custom:JV_fixedCenter="false" />
+
+    <io.github.controlwear.virtual.joystick.android.JoystickView
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/joystickView2"
+        android:elevation="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:JV_buttonColor="#50004080"
+        custom:JV_buttonSizeRatio="20%"
+        custom:JV_borderWidth="4dp"
+        custom:JV_buttonDirection="vertical"
+        custom:JV_fixedCenter="false"/>
+
+</RelativeLayout>
