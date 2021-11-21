@@ -61,9 +61,10 @@ It might not be obvious why I am using this particular power bank or the fan. Th
 ### Connections
 Following diagram shows the connections between the PI, motor driver, PWM controller and the power bank. 12v power comes from the usb QC2.0/3.0 decoy trigger output. The Wiring PI pinouts are different than the Broadcom GPIO pinouts. [Here's](https://pi4j.com/1.4/images/pi4j-rpi-4b-pinout.png) a high res image of the WiringPI pinout.
 
-![Pinout](https://user-images.githubusercontent.com/8725869/142750563-70e1042a-33df-445c-b2b1-6a0431d6c333.png)
+![Pinout](https://user-images.githubusercontent.com/8725869/142750641-029285a5-23f4-439b-a7d0-1141ea3aa2bb.png)
 (Click the image for better resolution)
 
+## Software
 
 
 
