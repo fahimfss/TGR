@@ -1,8 +1,7 @@
 # TGR
 TGR is a Raspberry Pi (4B) based 4wd robot, created for real world ML/RL based projects. Currently the robot can be controlled using an Android App. I am currently planning and working on projects involving ML and RL using the robot.
 
-
-![PXL_20211118_114955822](https://user-images.githubusercontent.com/8725869/142424417-8b1f653d-f736-4e0d-97b7-70e0500c1b19.jpg)
+![2-COLLAGE](https://user-images.githubusercontent.com/8725869/142768076-ca5b7c07-07ad-4853-aa99-fb1226644cc1.jpg)
 
 
 ## TGR ShowOff!
@@ -59,10 +58,14 @@ Note: URL with an asterisk means that, the URL is of a local Bangladeshi website
 It might not be obvious why I am using this particular power bank or the fan. The power bank has multiple outputs and is powerful enough to run the PI and the components. Also, it supports both 5v and 12v output. 5v is needed to power the PI, the motor drivers and the PWM controller. The 12v output can be achived using the usb QC2.0/3.0 decoy trigger. The motors, the lights and the fan require 12v power. The 12v fan serves two purposes. It cools the PI CPU and also draws power from the usb port so that the power bank does not turn off the usb port. Without it, the power bank will turn the usb port off and the motors/lights will not get any power. 
 
 ### Connections
-The following diagram shows the connections between the PI, the motor drivers, the PWM controller, the power bank, the motors and the lights. 12v power comes from the usb QC2.0/3.0 decoy trigger output. The Wiring PI pinouts are different than the Broadcom GPIO pinouts. [Here's](https://pi4j.com/1.4/images/pi4j-rpi-4b-pinout.png) a high res image of the WiringPI pinout.
+The following diagrams shows the connections between the PI, the motor drivers, the PWM controller, the power bank, the motors and the lights. 12v power comes from the usb QC2.0/3.0 decoy trigger output. The Wiring PI pinouts are different than the Broadcom GPIO pinouts. [Here's](https://pi4j.com/1.4/images/pi4j-rpi-4b-pinout.png) a high res image of the WiringPI pinout.
 
-![Pinout](https://user-images.githubusercontent.com/8725869/142750641-029285a5-23f4-439b-a7d0-1141ea3aa2bb.png)
-(Click the image for better resolution)
+![diagram1](https://user-images.githubusercontent.com/8725869/142764230-aeffeeb9-1adb-4083-b671-852753f1729a.png)
+
+![diagram2](https://user-images.githubusercontent.com/8725869/142764111-7bbb41dd-14be-4b33-961c-dadb39845cf0.png)
+
+
+(Click the images for better resolution)
 
 ## Software
 ### Raspberry PI
