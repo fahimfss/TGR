@@ -29,7 +29,7 @@ Note: URL with an asterisk means that the URL is of a local Bangladeshi website,
 | 4 | Motor Driver (TB6612FNG) | 2 | [URL](https://www.sparkfun.com/products/14451) |
 | 5 | PWM Controller (PCA9685) | 1 | [URL](https://learn.adafruit.com/16-channel-pwm-servo-driver?view=all) |
 | 6 | 12v 400 RPM Geared Motor | 4 | [\*URL](https://bdspeedytech.com/index.php?route=product/product&path=16&product_id=561&limit=100) |
-| 7 | 12v DC Fan | 1 | [\*URL](https://www.daraz.com.bd/products/i148372106-s1074332484.html) |
+| 7 | 12v DC Fan | 1 | [URL](https://www.daraz.com.bd/products/i148372106-s1074332484.html) |
 | 8 | 12v Led Light | 2 | [\*URL](https://www.aliexpress.com/item/32910685603.html) |
 | 9 | QC2.0/3.0 Decoy Trigger Board | 1 | [URL](https://www.aliexpress.com/item/1005001493092842.html) |
 | 10 | USB 2.0 Jack Connector A type | 2 | [URL](https://www.aliexpress.com/item/1923995230.html) |
