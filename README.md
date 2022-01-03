@@ -1,8 +1,7 @@
 # TGR
-TGR is a Raspberry Pi (4B) based 4wd robot, created for real-world ML/RL based projects. At this moment, the robot can be controlled using an Android App. I am currently planning and working on projects involving ML and RL using the robot.
+TGR is a Raspberry Pi (4B) based 4wd robot, created for real-world ML/RL based projects. At this moment, the robot can be controlled using an Android App. I am currently planning and working on projects involving ML and RL using the robot. **TGR form factor was updated on Jan 2022 to make it smaller and to include new sets of lights.**
 
-![2-COLLAGE](https://user-images.githubusercontent.com/8725869/142768076-ca5b7c07-07ad-4853-aa99-fb1226644cc1.jpg)
-
+![COLLAGE](https://user-images.githubusercontent.com/8725869/147936054-ff628e37-ce7e-4e92-9f9a-834dbcb18979.jpg)
 
 ## TGR ShowOff!
 TGR has tank-like controlling: To move left, the right motors are given power, and to move right, the left motors are given power. Here's TGR running around:  
@@ -14,7 +13,7 @@ The bottom part is a real-time video of the robot.
 
 ![GIF2_Small](https://user-images.githubusercontent.com/8725869/142747483-952f0df2-c9a4-43c7-842d-24a17b76e6d2.gif)
 
-High res videos can be found [here](https://drive.google.com/file/d/16X5udqJc99JmQJwUT7lmcn4zDLDHTN4-/view?usp=sharing) and [here](https://drive.google.com/file/d/16Yq4cvY4MGfM3svSmrKjyQYgUQQEKkC-/view?usp=sharing) (Change the quality to 1080p).
+High res videos can be found [here](https://drive.google.com/file/d/16X5udqJc99JmQJwUT7lmcn4zDLDHTN4-/view?usp=sharing) and [here](https://drive.google.com/file/d/16Yq4cvY4MGfM3svSmrKjyQYgUQQEKkC-/view?usp=sharing) (Change the quality to 1080p). For this demonstration, the previous form factor of TGR was used. 
 
 ## Hardware
 In this section, details about the components/materials/tools and the connections will be provided.  
@@ -31,7 +30,7 @@ Note: URL with an asterisk means that the URL is of a local Bangladeshi website,
 | 5 | PWM Controller (PCA9685) | 1 | [URL](https://learn.adafruit.com/16-channel-pwm-servo-driver?view=all) |
 | 6 | 12v 400 RPM Geared Motor | 4 | [\*URL](https://bdspeedytech.com/index.php?route=product/product&path=16&product_id=561&limit=100) |
 | 7 | 12v DC Fan | 1 | [\*URL](https://www.daraz.com.bd/products/i148372106-s1074332484.html) |
-| 8 | 12v Led Light | 2 | [\*URL](https://udvabony.com/product/high-power-white-3w-12v-cob-led-chip-028-mod/) |
+| 8 | 12v Led Light | 2 | [\*URL](https://www.aliexpress.com/item/32910685603.html) |
 | 9 | QC2.0/3.0 Decoy Trigger Board | 1 | [URL](https://www.aliexpress.com/item/1005001493092842.html) |
 | 10 | USB 2.0 Jack Connector A type | 2 | [URL](https://www.aliexpress.com/item/1923995230.html) |
 | 11 | Jumper Wires | - | [URL](https://www.amazon.com/EDGELEC-Breadboard-Optional-Assorted-Multicolored/dp/B07GD2BWPY/) |
