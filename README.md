@@ -3,6 +3,27 @@ TGR is a Raspberry Pi (4B) based 4wd robot, created for real-world ML/RL based p
 
 ![COLLAGE](https://user-images.githubusercontent.com/8725869/147936054-ff628e37-ce7e-4e92-9f9a-834dbcb18979.jpg)
 
+## Update Jan 2022: Image Based Line Following Using TGR
+Here's TGR following a Yellow line:  
+![TGR_Running_GIF](https://user-images.githubusercontent.com/8725869/148042514-fae0964a-9581-43a3-bc6f-f756eaffdb04.gif)
+
+The original video can be found [here](https://drive.google.com/file/d/13p-KOvLZCS4jOOw-yA4AFciswgG9Aqvu/view?usp=sharing).
+
+Here are the steps for the line following task:
+![image](https://user-images.githubusercontent.com/8725869/148042631-e4aa9b4d-a95c-40ab-a9ad-bd1b43f95351.png)
+![image](https://user-images.githubusercontent.com/8725869/148042702-dc09f891-57d6-4546-968b-8e5ffedaf6e2.png)
+![image](https://user-images.githubusercontent.com/8725869/148042759-d88dc0b8-0818-4542-b362-c9ea4be14c0c.png)
+
+The [auto_runner.cpp](https://github.com/fahimfss/TGR/blob/main/pi/auto_runner.cpp) file contains the code for the line following task, which is run in the Raspberry PI. The code uses the following 2 files: [img_process.h](https://github.com/fahimfss/TGR/blob/main/pi/img_process.h), [threadsafe_stack.h](https://github.com/fahimfss/TGR/blob/main/pi/threadsafe_stack.h). The image capture is set to 40 FPS, which takes about 25ms per image. Image processing takes about .75ms.   
+The following command is used in the terminal for compiling auto_runner.cpp:
+```
+g++ -std=c++17 auto_runner.cpp `pkg-config opencv4 --cflags --libs`  -pthread -lwiringPi -o auto
+```
+The command for running auto_runner:
+```
+./auto
+```
+
 ## TGR ShowOff!
 TGR has tank-like controlling: To move left, the right motors are given power, and to move right, the left motors are given power. Here's TGR running around:  
 
