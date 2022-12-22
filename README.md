@@ -1,5 +1,5 @@
 # TGR
-TGR is a Raspberry Pi (4B) based 4wd robot created for real-world ML/RL-based projects. The robot can now perform the line-following task using the camera image only, and the robot can be controlled using an Android App. I am currently planning and working on projects involving ML and RL using the robot. **TGR form factor was updated on Jan 2022 to make it smaller, to include fisheye camera lens and to include new sets of lights.**
+TGR is a Raspberry Pi (4B) based 4wd robot created for real-world ML/RL-based projects. The robot can perform the line-following task using the camera image only, and the robot can be controlled using an Android App. I plan to implement projects involving ML and RL using the robot.**TGR form factor was updated on Jan 2022 to make it smaller, to include fisheye camera lens and to include new sets of lights.**
 
 ![COLLAGE](https://user-images.githubusercontent.com/8725869/147936054-ff628e37-ce7e-4e92-9f9a-834dbcb18979.jpg)
 
